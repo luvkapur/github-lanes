@@ -5,7 +5,7 @@ import { TimeAgo } from './time-ago';
 export const YearsAgoWithTimestamp = () => {
   return (
     <ThemeCompositions>
-      <TimeAgo date={226075501719} />
+      <TimeAgo date={726075501719} />
     </ThemeCompositions>
   );
 };
