@@ -110,7 +110,7 @@ jobs:
         run: echo "$HOME/bin" >> $GITHUB_PATH
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: main
       - name: Initialize Bit repo
         run: bit init
       - name: Switch to Remote Lane
@@ -121,3 +121,8 @@ jobs:
         run: bit lane merge $LANE_NAME
       - name: Export the Lane and the Components
         run: bit export
+      - name: Commit .bitmap changes to PR
+        uses: EndBug/add-and-commit@v9
+        with:
+          push: true
+          message: 'update .bitmap after merging'
