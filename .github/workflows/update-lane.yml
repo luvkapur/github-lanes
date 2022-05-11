@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - '.github/*'
       - .gitignore
-      
+
 jobs:
   setup_npm:
 
@@ -139,6 +139,8 @@ jobs:
         run: bit snap
       - name: Export the Lane and the Components
         run: bit export
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
       - name: Commit .bitmap changes to PR
         uses: EndBug/add-and-commit@v9
         with:
