@@ -17,7 +17,11 @@
         "lanes": [
             {
                 "remoteLane": "teambit.github_lanes/b",
-                "version": "cbc1232c91ad3900ab13aa2696695bac6acf3f5b"
+                "version": "6c7a608db546645edb865ca0423361718c5d1aa7"
+            },
+            {
+                "remoteLane": "teambit.github_lanes/b",
+                "version": "6c7a608db546645edb865ca0423361718c5d1aa7"
             }
         ]
     },
