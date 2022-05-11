@@ -30,12 +30,16 @@
             {
                 "remoteLane": "teambit.github_lanes/de",
                 "version": "e390aa8379929bcf39e21a43a6fb9c7f2df9840d"
+            },
+            {
+                "remoteLane": "teambit.github_lanes/merge-debug",
+                "version": "b118c2881706d67fcbc8b5b1fcd6e03a3c64cc8c"
             }
         ]
     },
     "$schema-version": "14.9.0",
     "_bit_lane": {
-        "name": "de",
+        "name": "merge-debug",
         "scope": "teambit.github_lanes"
     }
 }
