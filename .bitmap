@@ -11,7 +11,7 @@
 {
     "ui/time-ago": {
         "scope": "teambit.github_lanes",
-        "version": "1.0.1",
+        "version": "6c7a608db546645edb865ca0423361718c5d1aa7",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/time-ago",
         "lanes": [
