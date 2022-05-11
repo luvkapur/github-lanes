@@ -22,12 +22,16 @@
             {
                 "remoteLane": "teambit.github_lanes/b",
                 "version": "6c7a608db546645edb865ca0423361718c5d1aa7"
+            },
+            {
+                "remoteLane": "teambit.github_lanes/e",
+                "version": "52e2f4824b00ac139873a056b92520a940c66c45"
             }
         ]
     },
     "$schema-version": "14.9.0",
     "_bit_lane": {
-        "name": "b",
+        "name": "e",
         "scope": "teambit.github_lanes"
     }
 }
