@@ -114,7 +114,7 @@ jobs:
       - name: Initialize Bit repo
         run: bit init
       - name: Switch to Remote Lane
-        run: bit lane switch $SCOPE_NAME/$LANE_NAME
+        run: bit lane import $SCOPE_NAME/$LANE_NAME
       - name: Switch to Main Lane
         run: bit lane switch main
       - name: Merge Lane to Main
