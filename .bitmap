@@ -34,12 +34,16 @@
             {
                 "remoteLane": "teambit.github_lanes/merge-debug",
                 "version": "b118c2881706d67fcbc8b5b1fcd6e03a3c64cc8c"
+            },
+            {
+                "remoteLane": "teambit.github_lanes/butters-bubbles",
+                "version": "737fb4286b5ca41f3602b2f4e37b28af638d122d"
             }
         ]
     },
     "$schema-version": "14.9.0",
     "_bit_lane": {
-        "name": "merge-debug",
+        "name": "butters-bubbles",
         "scope": "teambit.github_lanes"
     }
 }
