@@ -13,7 +13,17 @@
         "scope": "teambit.github_lanes",
         "version": "1.0.1",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/ui/time-ago"
+        "rootDir": "my-scope/ui/time-ago",
+        "lanes": [
+            {
+                "remoteLane": "teambit.github_lanes/a",
+                "version": "77b4cf4d526702d767fbbdd35c2550225e9da0e1"
+            }
+        ]
     },
-    "$schema-version": "14.9.0"
+    "$schema-version": "14.9.0",
+    "_bit_lane": {
+        "name": "a",
+        "scope": "teambit.github_lanes"
+    }
 }
