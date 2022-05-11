@@ -33,6 +33,9 @@ jobs:
       extracted: ${{ steps.extract.outputs.replaced }}
 
     steps:
+      - name: Dump GitHub context
+        id: github_context_step
+        run: echo '${{ toJSON(github) }}'
       - name: Replace illegal characters from head branch name
         id: extract
         uses: frabert/replace-string-action@v2.0
