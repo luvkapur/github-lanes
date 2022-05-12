@@ -42,12 +42,16 @@
             {
                 "remoteLane": "teambit.github_lanes/butters",
                 "version": "54d9f49e76095c7cc47b798d362a5399dc2dcc3d"
+            },
+            {
+                "remoteLane": "teambit.github_lanes/debug",
+                "version": "c2dcffa185ab374e14e89931e5f19c44b395639a"
             }
         ]
     },
     "$schema-version": "14.9.0",
     "_bit_lane": {
-        "name": "butters",
+        "name": "debug",
         "scope": "teambit.github_lanes"
     }
 }
