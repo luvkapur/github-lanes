@@ -38,12 +38,16 @@
             {
                 "remoteLane": "teambit.github_lanes/butters-bubbles",
                 "version": "737fb4286b5ca41f3602b2f4e37b28af638d122d"
+            },
+            {
+                "remoteLane": "teambit.github_lanes/butters",
+                "version": "54d9f49e76095c7cc47b798d362a5399dc2dcc3d"
             }
         ]
     },
     "$schema-version": "14.9.0",
     "_bit_lane": {
-        "name": "butters-bubbles",
+        "name": "butters",
         "scope": "teambit.github_lanes"
     }
 }
