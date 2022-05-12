@@ -18,6 +18,10 @@
             {
                 "remoteLane": "teambit.github_lanes/button-docs-review",
                 "version": "d367648f91f4f7ac76270376d8dc53a48adf2b06"
+            },
+            {
+                "remoteLane": "teambit.github_lanes/m-debug",
+                "version": "a15bf08e83532b3fa2e5e7eb56e3ba46267a0b24"
             }
         ]
     },
@@ -29,7 +33,7 @@
     },
     "$schema-version": "14.9.0",
     "_bit_lane": {
-        "name": "button-docs-review",
+        "name": "m-debug",
         "scope": "teambit.github_lanes"
     }
 }
