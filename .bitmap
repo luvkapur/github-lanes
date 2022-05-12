@@ -11,47 +11,9 @@
 {
     "ui/time-ago": {
         "scope": "teambit.github_lanes",
-        "version": "52e2f4824b00ac139873a056b92520a940c66c45",
+        "version": "1.0.1",
         "mainFile": "index.ts",
-        "rootDir": "my-scope/ui/time-ago",
-        "lanes": [
-            {
-                "remoteLane": "teambit.github_lanes/b",
-                "version": "6c7a608db546645edb865ca0423361718c5d1aa7"
-            },
-            {
-                "remoteLane": "teambit.github_lanes/b",
-                "version": "6c7a608db546645edb865ca0423361718c5d1aa7"
-            },
-            {
-                "remoteLane": "teambit.github_lanes/e",
-                "version": "52e2f4824b00ac139873a056b92520a940c66c45"
-            },
-            {
-                "remoteLane": "teambit.github_lanes/de",
-                "version": "e390aa8379929bcf39e21a43a6fb9c7f2df9840d"
-            },
-            {
-                "remoteLane": "teambit.github_lanes/merge-debug",
-                "version": "b118c2881706d67fcbc8b5b1fcd6e03a3c64cc8c"
-            },
-            {
-                "remoteLane": "teambit.github_lanes/butters-bubbles",
-                "version": "737fb4286b5ca41f3602b2f4e37b28af638d122d"
-            },
-            {
-                "remoteLane": "teambit.github_lanes/butters",
-                "version": "54d9f49e76095c7cc47b798d362a5399dc2dcc3d"
-            },
-            {
-                "remoteLane": "teambit.github_lanes/debug",
-                "version": "c2dcffa185ab374e14e89931e5f19c44b395639a"
-            }
-        ]
+        "rootDir": "my-scope/ui/time-ago"
     },
-    "$schema-version": "14.9.0",
-    "_bit_lane": {
-        "name": "debug",
-        "scope": "teambit.github_lanes"
-    }
+    "$schema-version": "14.9.0"
 }
