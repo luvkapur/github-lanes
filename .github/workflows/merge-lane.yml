@@ -131,9 +131,9 @@ jobs:
       - name: Display scope.json
         run: cat .git/bit/scope.json
       - name: Import from Remote Lane
-        run: bit lane import $SCOPE_NAME/$LANE_NAME
-      # - name: Setup upterm session
-      #   uses: lhotari/action-upterm@v1
+        run: bit import
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
       - name: Switch to Main Lane and checkout latest
         run: bit lane switch main && bit checkout latest --all
       - name: Merge Lane to Main
