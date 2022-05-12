@@ -132,10 +132,10 @@ jobs:
         run: cat .git/bit/scope.json
       - name: Display bitmap
         run: cat .bitmap
-      - name: Import from Remote Lane
-        run: bit import
       - name: Setup upterm session
         uses: lhotari/action-upterm@v1
+      - name: Import from Remote Lane
+        run: bit import
       - name: Switch to Main Lane and checkout latest
         run: bit lane switch main && bit checkout latest --all
       - name: Merge Lane to Main
