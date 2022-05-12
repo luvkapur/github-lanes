@@ -130,6 +130,8 @@ jobs:
         run: rm .git/bit/scope.json && mv scope.json .git/bit
       - name: Display scope.json
         run: cat .git/bit/scope.json
+      - name: Display bitmap
+        run: cat .bitmap
       - name: Import from Remote Lane
         run: bit import
       - name: Setup upterm session
