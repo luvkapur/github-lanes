@@ -11,7 +11,7 @@
 {
     "ui/button": {
         "scope": "teambit.github_lanes",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "github_lanes/button",
         "lanes": [
@@ -35,9 +35,5 @@
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/time-ago"
     },
-    "$schema-version": "14.9.0",
-    "_bit_lane": {
-        "name": "mm-debug",
-        "scope": "teambit.github_lanes"
-    }
+    "$schema-version": "14.9.0"
 }
