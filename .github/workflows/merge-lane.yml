@@ -132,12 +132,12 @@ jobs:
         run: cat .git/bit/scope.json
       - name: Display bitmap
         run: cat .bitmap
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
+      # - name: Setup upterm session
+      #   uses: lhotari/action-upterm@v1
       - name: Import from Remote Lane
         run: bit import
       - name: Switch to Main Lane and checkout latest
-        run: bit lane switch main && bit checkout latest --all
+        run: bit lane switch main
       - name: Merge Lane to Main
         run: bit lane merge $SCOPE_NAME/$LANE_NAME
       - name: Tag all Compomnents
