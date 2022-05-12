@@ -50,7 +50,9 @@
         "classnames": "2.2.6",
         "react-test-renderer": "16.14.0"
       },
-      "peerDependencies": {}
+      "peerDependencies": {
+        "@testing-library/react": "^12.1.5"
+      }
     }
   },
   /**
