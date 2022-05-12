@@ -136,8 +136,8 @@ jobs:
         run: cat .bitmap
       - name: Import from Remote Lane
         run: bit import
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
+      # - name: Setup upterm session
+      #   uses: lhotari/action-upterm@v1
       - name: Switch to Main Lane and checkout latest
         run: bit lane switch main
       - name: Merge Lane to Main

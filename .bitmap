@@ -22,6 +22,10 @@
             {
                 "remoteLane": "teambit.github_lanes/m-debug",
                 "version": "a15bf08e83532b3fa2e5e7eb56e3ba46267a0b24"
+            },
+            {
+                "remoteLane": "teambit.github_lanes/mm-debug",
+                "version": "3848b3d49f0ac0a9c812c2579cc852cf55971fc9"
             }
         ]
     },
@@ -33,7 +37,7 @@
     },
     "$schema-version": "14.9.0",
     "_bit_lane": {
-        "name": "m-debug",
+        "name": "mm-debug",
         "scope": "teambit.github_lanes"
     }
 }
